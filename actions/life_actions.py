@@ -21,9 +21,13 @@ def imAlive():
 
 def keepOn(goal):
     print('Kepp on until {} is done'.format(goal))
-    time.sleep(5)
+    time.sleep(3)
 
 def die():
     print('\n\n\nLife achievements:\n')
     print(achievements)
-    print("\n\nI don't have dreams I have goals. Now it's onto the next one.\n\n\n\n\n")
+    print("\n\n\n")
+    print("-----------------------------------------------------------------")
+    print("| I don't have dreams I have goals. Now it's onto the next one. |")
+    print("-----------------------------------------------------------------")
+    print("\n\n\n")
