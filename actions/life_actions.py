@@ -23,7 +23,10 @@ def keepOn(goal):
     print('Kepp on until {} is done'.format(goal))
     time.sleep(3)
 
-def die():
+def new_goal(goal = 'New Goal'):
+    goals.append(goal)
+
+def died():
     print('\n\n\nLife achievements:\n')
     print(achievements)
     print("\n\n\n")
