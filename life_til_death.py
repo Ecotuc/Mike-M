@@ -8,5 +8,5 @@ while imAlive():
         while success(goal) != True:
             keepOn(goal)
         done(goal)
-    new_goal()
+    #new_goal()
 died()
